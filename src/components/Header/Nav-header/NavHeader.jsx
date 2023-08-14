@@ -1,17 +1,17 @@
 //import React from 'react'
-
+import "./nav-header.css"
 const NavHeader = () => {
   const error404 =()=>{
-    window.location="../../../pages/error404.html"
-  }
+    window.location="/error404.html"
+  } 
   return (
-    <div className="container">
+    <div className="container container-nav">
       
       <div className="row">
-       <div className="col-md-12 col-lg-9">My Tinerary</div>
-       <div className="col-md-12 col-lg-1"><button className="data-bs-toggle">Home</button></div>
-       <div className="col-md-12 col-lg-1"><button className="data-bs-toggle" >Cities</button></div>
-       <div className="col-md-12 col-lg-1"><button className="data-bs-toggle" onClick={error404}>Login</button></div>
+       <div className="col-md-12 col-lg-8 myti"><h1>My Tinerary</h1></div>
+       <div className="col-4 col-lg-1 classbutton"><button className="data-bs-toggle btn-outline-primary rounded">Home</button></div>
+       <div className="col-4 col-lg-1 classbutton"><button className="data-bs-toggle btn-outline-primary rounded" onClick={error404}>Cities</button></div>
+       <div className="col-4 col-lg-1 classbutton"><button className="data-bs-toggle btn-outline-primary rounded " >Login</button></div>
         
        </div>
     </div>
