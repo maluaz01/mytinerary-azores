@@ -24,6 +24,7 @@ const MainBody = () => {
           ></li>
           <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
           <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carousel1" data-bs-slide-to="3"></li>
         </ol>
 
         <div className="carousel-inner">
@@ -31,16 +32,18 @@ const MainBody = () => {
             <FourPics />
             <div className="carousel-caption"></div>
           </div>
+          </div>
           <div className="carousel-item">
             <FourPics1 />
             <div className="carousel-caption" />
           </div>
-       
+       </div>
         <div className="carousel-item">
           <FourPics2 />
           <div className="carousel-caption"></div>
         </div>
       </div>
+        </div>
 </div>
       <a
         className="carousel-control-prev"
@@ -60,6 +63,7 @@ const MainBody = () => {
       </a>
       <div id="myCarousel" className="carousel slide"></div>
     </div>
+          </div>
   );
 };
 
