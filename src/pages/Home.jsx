@@ -1,15 +1,15 @@
-
-import Header from "../components/Header/Header"
-import MainBody from "../components/MainBody/MainBody"
-import Footer from "../components/Footer/Footer"
+//import React from 'react'
+import HeaderFront from "../components/HeaderFront/HeaderFront";
+import MainFront from "../components/MainFront/MainFront";
+import FooterFront from "../components/FooterFront/FooterFront";
 const Home = () => {
   return (
     <div>
-      <Header />
-      <MainBody />
-      <Footer />
+      <HeaderFront />
+      <MainFront />
+      <FooterFront />
     </div>
-  )
-}
+  );
+};
 
 export default Home;

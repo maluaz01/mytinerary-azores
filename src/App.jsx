@@ -1,9 +1,14 @@
-//import React from 'react'
-import Home from "./pages/Home"
-const App = () => {
-  return (
-    <div><Home /></div>
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./App.css"
+//import Home from "./pages/Home"
+import LayoutMain from "./pages/LayoutMain/LayoutMain"
+
+function App() {  
+  return (    
+      <div>
+        <LayoutMain />
+      </div>
   )
 }
 
-export default App;
+export default App

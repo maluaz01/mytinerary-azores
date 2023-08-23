@@ -1,0 +1,18 @@
+.divCont{
+    display:flex;
+    flex-wrap: nowrap;
+    max-height: 40vh;
+}
+.myti{
+    font-size: 1.8rem;
+    color:black;
+}
+.bi{
+    width:18px;
+}
+.navImg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70px;
+}

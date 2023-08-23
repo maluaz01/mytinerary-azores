@@ -1,0 +1,9 @@
+.footerMain{
+    height:15vh;
+    background-color: bisque;
+}
+.webs{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}

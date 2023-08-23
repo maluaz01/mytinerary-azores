@@ -1,0 +1,10 @@
+.pic404{
+    margin:1vh auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pic404 img{
+    width:90vw;
+}
