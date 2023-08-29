@@ -74,8 +74,8 @@ const cities=[
         name:"Cape Town",
         imgUrl:"/capetown.jpg",
         alt:"Cape Town City",
-       },            
-                                     
+       },
+                            
 ]
 
 export default cities;

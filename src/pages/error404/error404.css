@@ -4,7 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 80vh;
 }
 .pic404 img{
-    width:90vw;
+    width:100vw;
 }
+.highest{  
+    height:100% ;
+    background-color: rgb(234, 221, 247);
+} 

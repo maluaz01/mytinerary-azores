@@ -1,20 +1,3 @@
- 
-.but1{
-    
-    background-color: red;
+.highest{
+    min-height:85vh ;
 } 
-.pics{
-    width:100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: blue;
-}
-.carousel{
-    margin:1vh auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}

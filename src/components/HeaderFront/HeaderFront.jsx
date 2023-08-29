@@ -1,10 +1,11 @@
 //import React from 'react'
+import {Link} from "react-router-dom";
 import "./headerFront.css";
 const headerFront = () => {
   return (
     <div className="divCont">
       <nav className="navbar navbar-expand-sm">
-        <div className="container">
+        <div className="container-fluid">
           <a href="#" className="navbar-brand">
             <span className=" myti">MyTinerary</span>
           </a>
@@ -23,20 +24,20 @@ const headerFront = () => {
           <div className="collapse navbar-collapse" id="menu">
             <ul className="navbar-nav me-auto">
               <li className="nav-item">
-                <a href="#s1" className="nav-link active">
+                <Link to="/"><a href="#s1" className="nav-link active">
                   Home
-                </a>
+                </a></Link>
               </li>
               <li className="nav-item ">               
-                <a href="#s1" className="nav-link ">
+                <Link to="/Cities"><a href="#s1" className="nav-link ">
                   Cities
-                </a>
+                </a></Link>
               </li>
               <li className="nav-item navImg">
               <img className="bi" src="./profile.png" />
-                <a href="#s1" className="nav-link ">
+               <Link to="/Login"><a href="#s1" className="nav-link ">
                   Login
-                </a>
+                </a></Link>
               </li>
             </ul>
           </div>

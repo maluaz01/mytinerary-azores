@@ -6,8 +6,8 @@ import "./footerFront.css"
 
 const FooterFront = () => {
   return (
-    <div className="container footerMain">
-      <div className="row">
+    <div className="container-fluid h-10 footerMain">
+      <div className="row align-items-center">
         <div className="copy col-lg-6 col-xl-6">
           &copy; Copyright 2015 Mytinerary. All rights reserved.
         </div>

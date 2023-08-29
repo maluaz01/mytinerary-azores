@@ -1,13 +1,13 @@
 //import React from 'react'
 import "./cities.css"
-import Carousel from "../components/Carousel/Carousel";
+import Carousel00 from "../components/Carousel/Carousel00";
 const Cities = () => {
   return (
     <div>
       <div className="popular">
         <h2>Popular MYTINERARIES!</h2>
       </div>
-      <Carousel />
+      <Carousel00 />
     </div>
   );
 };

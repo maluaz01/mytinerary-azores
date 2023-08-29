@@ -1,7 +1,8 @@
 .divCont{
     display:flex;
     flex-wrap: nowrap;
-    max-height: 40vh;
+    min-height: 30vh;
+    background-color: aquamarine;
 }
 .myti{
     font-size: 1.8rem;

@@ -1,13 +1,9 @@
 .cardOne{
-    width:290px;
+    width:305px;
     height:265px;
     margin:1vw;
     padding:0;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(126, 238, 126);
+   
 } 
 .cardOne img{
     margin:0 auto;
@@ -16,5 +12,8 @@
     height:230px;
 }
 .h2Name{
-    background-color: aqua;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-size:2.5rem;
 }

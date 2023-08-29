@@ -2,6 +2,11 @@
 .container{
     min-height:40vh;
 }
+.highest{  
+        min-height:85vh ;
+        background-color: rgb(234, 221, 247);
+    } 
+
 .rowHero{
     display:flex;
     flex-direction: row;
