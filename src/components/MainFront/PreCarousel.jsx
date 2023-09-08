@@ -8,30 +8,30 @@ const cities4 = cities.slice(12);
 
 const picture1 = (
   <div className="one d-flex flex-wrap justify-content-center">
-    {cities1.map((city) => (
-      <CardCity key={city._id} town={city} />
+     {cities1.map((city) => (   
+      <CardCity key={city._Id} town={city}/>         
     ))}
-  </div>
-);
+  </div> 
+  );
 
 const picture2 = (
   <div className="one d-flex flex-wrap justify-content-center">
     {cities2.map((city) => (
-      <CardCity key={city._id} town={city} />
+      <CardCity key={city._Id} town={city} />
     ))}
   </div>
 );
 const picture3 = (
   <div className="one d-flex flex-wrap justify-content-center">
     {cities3.map((city) => (
-      <CardCity key={city._id} town={city} />
+      <CardCity key={city._Id} town={city} />
     ))}
   </div>
 );
 const picture4 = (
   <div className="one d-flex flex-wrap justify-content-center">
     {cities4.map((city) => (
-      <CardCity key={city._id} town={city} />
+      <CardCity key={city._Id} town={city} />
     ))}
   </div>
 );
